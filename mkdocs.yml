@@ -1,0 +1,19 @@
+site_name: Christina Hedges Astronomy
+site_url: https://christinahedges.github.io
+
+nav:
+    - "Christina Hedges": index.md
+
+theme:
+  name: "material"
+  icon:
+    logo: material/space-station
+  palette:
+    scheme: default
+    primary: teal
+    accent: pink
+
+plugins: []
+markdown_extensions:
+    - toc:
+        toc_depth : "1-1"
