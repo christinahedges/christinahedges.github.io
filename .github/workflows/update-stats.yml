@@ -19,7 +19,9 @@ jobs:
           python-version: 3.x
 
       - name: Install requests
-        run: pip install requests
+        run: |
+          pip install requests
+          pip install numpy
 
       - name: Run fetch_publications script
         env:
